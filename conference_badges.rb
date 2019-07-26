@@ -12,11 +12,10 @@
     return badge_messages_array
   end
 
-  def assign_room(attendess)
+  def assign_rooms(attendess)
     room_array = []
     array.each_with_index {|name, index|}
       room_array.push("Hello, #{name}! You'll be assigned to room #{index}!")
     end
     return room_array
   end
-end
