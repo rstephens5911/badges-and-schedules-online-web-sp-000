@@ -5,11 +5,10 @@
     puts " Hello, my name is #{name}"
   end
 
-  def batch_badge_creator(attendess)
+  def batch_badge_creator(attendees)
     attendees.each do |element|
       badge_maker(element)
     end
-    return badge_messages_array
   end
 
   def assign_rooms(attendess)
