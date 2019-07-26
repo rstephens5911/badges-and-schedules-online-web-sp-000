@@ -14,8 +14,8 @@
 
   def assign_rooms(attendess)
     room_array = []
-    attendess.each_with_index {|attendee, index|}
-      room_array.push("Hello, #{name}! You'll be assigned to room #{index}!")
+    attendess.each_with_index |attendee, index|
+      room_array.push("Hello, #{attendee}! You'll be assigned to room #{index + 1}!")
     end
     return room_array
   end
