@@ -6,8 +6,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendess)
-  badge_messages_array = []
-  array.each do |element|
+  attendees.each do |element|
     badge_maker(element)
   end
   return badge_messages_array
