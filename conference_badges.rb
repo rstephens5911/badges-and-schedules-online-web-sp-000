@@ -10,4 +10,3 @@ def batch_badge_creator(attendees)
     puts badge_maker(attendee)
   end
 end
-    
